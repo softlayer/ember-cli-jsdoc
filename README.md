@@ -10,7 +10,7 @@ An Ember CLI addon to generate HTML documentation from [JSDoc](http://usejsdoc.o
 
 
 
-# Install in your application
+# Install
 
 ```
 ember install ember-cli-jsdoc
@@ -18,7 +18,7 @@ ember install ember-cli-jsdoc
 
 
 
-# Usage
+# Use
 
 Run `ember ember-cli-jsdoc` anytime you wish to generate the documentation.  You can then access this generated
 documentation at *http://localhost:4200/docs*.
