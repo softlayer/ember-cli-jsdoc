@@ -14,9 +14,7 @@ Think you've found a bug or have a new feature to suggest? Let us know!
 
 ## Reporting a Bug
 
-1. Make sure you have the latest version of the code, if possible, as we may have already fixed your bug.  This
-project uses the [git-flow branching model](https://github.com/nvie/gitflow) so the latest changes will be in the
-develop` branch.
+1. Make sure you have the latest version of the code, if possible, as we may have already fixed your bug.
 
 2. Search for similar issues. It's possible somebody has encountered this bug already.
 
@@ -67,9 +65,8 @@ Here's a quick guide:
 2. Commit your changes. If your pull request fixes an issue specify it in the commit message. Here's an example:
 `git commit -m "Close #12 Fix passing of context"`
 
-6. Push to your fork and submit a pull request againt the `develop` branch (due to our use of the
-[git-flow branching model](https://github.com/nvie/gitflow)). Please provide us with some explanation of why you made
-the changes you made. For new features make sure to explain a standard use case to us.
+6. Push to your fork and submit a pull request againt the `master` branch. Please provide us with some explanation of
+why you made the changes you made. For new features make sure to explain a standard use case to us.
 
 We try to be quick about responding to tickets but sometimes we get a bit backlogged.  If the response is slow, try
 to find someone on IRC(#softlayer) to give the ticket a review.
