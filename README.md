@@ -38,10 +38,10 @@ documentation at *http://localhost:4200/docs*.
 
 # Things to know
 
-JSDoc does not yet currently fully support ES6 syntax. Its conventions also do not always reflect the architecture of an
-Ember application.  For the best experience using JSDoc comments you should follow
+* For the best experience using JSDoc comments you should follow
 [this styleguide](https://github.com/notmessenger/ember-style-guide#comments).
-
+    * This is because JSDoc does not yet currently fully support ES6 syntax nor does its conventions always reflect the architecture of an Ember application.
+* You may wish to add an entry in your `.gitignore` file for the `/docs` folder.
 
 
 # Versioning
