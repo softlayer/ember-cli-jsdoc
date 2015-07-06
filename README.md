@@ -1,3 +1,9 @@
+
+[![Latest Release](https://img.shields.io/github/release/softlayer/ember-cli-jsdoc.svg)](https://github.com/softlayer/ember-cli-jsdoc/releases) ![Ember CLI version](https://img.shields.io/badge/ember%20cli-0.2.7-orange.svg) [![License](https://img.shields.io/npm/l/ember-cli-jsdoc.svg)](LICENSE.md) [![Downloads](https://img.shields.io/npm/dm/ember-cli-jsdoc.svg)](https://www.npmjs.com/package/ember-cli-jsdoc)
+
+[![Dependencies](https://img.shields.io/david/softlayer/ember-cli-jsdoc.svg)](https://david-dm.org/softlayer/ember-cli-jsdoc) [![Dev Dependencies](https://img.shields.io/david/dev/softlayer/ember-cli-jsdoc.svg)](https://david-dm.org/softlayer/ember-cli-jsdoc#info=devDependencies)
+
+
 # ember-cli-jsdoc
 
 An Ember CLI addon to generate HTML documentation from [JSDoc](http://usejsdoc.org) comments in the source code.
