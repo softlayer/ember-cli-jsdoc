@@ -1,5 +1,12 @@
 # ember-cli-jsdoc Changelog
 
+### 1.2.0
+
+* Return call to add NPM package in blueprint
+* Change styling of status message and ensure gets written to UI
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.1.0...v1.2.0)
+
 ### 1.1.0
 
 * Add badges to README.md
