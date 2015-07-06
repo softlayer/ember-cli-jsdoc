@@ -14,7 +14,7 @@ ember install ember-cli-jsdoc
 
 # Usage
 
-Run `ember ember-cli-jsdoc` anytime you wish to generate the documenation.  You can then access this generated
+Run `ember ember-cli-jsdoc` anytime you wish to generate the documentation.  You can then access this generated
 documentation at *http://localhost:4200/docs*.
 
 
@@ -32,8 +32,8 @@ documentation at *http://localhost:4200/docs*.
 
 # Things to know
 
-[JSDoc](http://usejsdoc.org) does not yet currently fully support ES6 syntax. Its conventions also do not always reflect
-the architecture of an Ember application.  For the best experience using JSDoc comments you should follow
+JSDoc does not yet currently fully support ES6 syntax. Its conventions also do not always reflect the architecture of an
+Ember application.  For the best experience using JSDoc comments you should follow
 [this styleguide](https://github.com/notmessenger/ember-style-guide#comments).
 
 
