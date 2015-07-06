@@ -21,12 +21,12 @@ documentation at *http://localhost:4200/docs*.
 
 # Features
 
-    * Smartly generates `jsdoc.json` configuration file based on your application or addon's setup
-        * You can make any changes to this file as needed to suit your configuration needs
-    * Generated documentation is accessible at *http://localhost:4200/docs*
-    * Customized JSDoc template to support display of custom [@observes](https://github.com/notmessenger/jsdoc-plugins#emberobservestag) tag
-    * Automatically populates @listen tag values through use of the [emberListensTag plugin](https://github.com/notmessenger/jsdoc-plugins#emberlistenstag)
-    * You do not have to employ the @default tag for non-complex types, through the use of the [defaultTag plugin](https://github.com/notmessenger/jsdoc-plugins#defaulttag)
+* Smartly generates `jsdoc.json` configuration file based on your application or addon's setup
+    * You can make any changes to this file as needed to suit your configuration needs
+* Generated documentation is accessible at *http://localhost:4200/docs*
+* Customized JSDoc template to support display of custom [@observes](https://github.com/notmessenger/jsdoc-plugins#emberobservestag) tag
+* Automatically populates @listen tag values through use of the [emberListensTag plugin](https://github.com/notmessenger/jsdoc-plugins#emberlistenstag)
+* You do not have to employ the @default tag for non-complex types, through the use of the [defaultTag plugin](https://github.com/notmessenger/jsdoc-plugins#defaulttag)
 
 
 
