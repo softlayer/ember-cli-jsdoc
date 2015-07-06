@@ -38,6 +38,13 @@ module.exports = {
         }
 
         /**
+         * Chalk library
+         *
+         * @type {Object}
+         */
+        var chalk = require('chalk');
+
+        /**
          * fs library
          *
          * @type {Object}
@@ -141,9 +148,6 @@ module.exports = {
          */
         var isAddon = ( pkginfo.keywords && pkginfo.keywords.indexOf( 'ember-addon' ) !== -1 ) ? true : false;
 
-        // NPM dependency
-        this.addPackageToProject( 'ember-cli-doc-server', '1.1.0' );
-
         // Include configuration
         getPaths( 'include', isAddon ).forEach( function( entry ) {
             if ( doesExist( entry ) ) {
@@ -163,13 +167,6 @@ module.exports = {
             config.opts.readme = 'README.md';
         }
 
-        // Display status message
-        console.log(
-            'Generating jsdoc.json for',
-            isAddon ? 'ember-addon' : 'app',
-            'named ' + pkginfo.name
-        );
-
         // Write JSDoc config file
         fs.writeFileSync(
             'jsdoc.json',
@@ -179,5 +176,17 @@ module.exports = {
                 2
             )
         );
+
+        // Display status message
+        this.ui.writeLine(
+            chalk.green(
+                'Generated jsdoc.json for',
+                isAddon ? 'ember-addon' : 'app',
+                'named ' + pkginfo.name
+            )
+        );
+
+        // NPM dependency
+        return this.addPackageToProject( 'ember-cli-doc-server', '1.1.0' );
     }
 };
