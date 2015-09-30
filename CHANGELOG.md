@@ -1,5 +1,11 @@
 # ember-cli-jsdoc Changelog
 
+### 1.3.1
+
+* [#11](https://github.com/softlayer/ember-cli-jsdoc/pull/11) Made this addon OS-independent
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.3.0...v1.3.1)
+
 ### 1.3.0
 
 * Change to "ember-cli-jsdoc" command to correctly exit on error
