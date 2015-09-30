@@ -42,7 +42,7 @@ module.exports = {
          *
          * @type {Object}
          */
-        var chalk = require('chalk');
+        var chalk = require( 'chalk' );
 
         /**
          * fs library
