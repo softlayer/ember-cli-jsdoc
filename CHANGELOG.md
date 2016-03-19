@@ -1,5 +1,13 @@
 # ember-cli-jsdoc Changelog
 
+### 1.3.2
+
+**BUG FIX**
+
+* [#19](https://github.com/softlayer/ember-cli-jsdoc/issues/19) Support Node version *5.x.x* with correct pathing
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.3.1...v1.3.2)
+
 ### 1.3.1
 
 **ENHANCEMENT**
