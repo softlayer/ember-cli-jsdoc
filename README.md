@@ -42,6 +42,17 @@ documentation at *http://localhost:4200/docs*.
 [this styleguide](https://github.com/softlayer/ember-style-guide#comments).
     * This is because JSDoc does not yet currently fully support ES6 syntax nor does its conventions always reflect the architecture of an Ember application.
 * You may wish to add an entry in your `.gitignore` file for the `/docs` folder.
+* If you are using a Node version below 5.x.x you will want to change `plugins` entry in the *jsdoc.json* file to the following:
+
+```
+"plugins": [
+    "plugins/markdown",
+    "node_modules/ember-cli-jsdoc/node_modules/jsdoc-plugins/plugins/defaultTag",
+    "node_modules/ember-cli-jsdoc/node_modules/jsdoc-plugins/plugins/emberListensTag",
+    "node_modules/ember-cli-jsdoc/node_modules/jsdoc-plugins/plugins/emberObservesTag"
+]
+```
+
 
 
 # Versioning
