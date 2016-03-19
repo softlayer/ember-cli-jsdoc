@@ -80,9 +80,9 @@ module.exports = {
             },
             'plugins': [
                 'plugins/markdown',
-                'node_modules/ember-cli-jsdoc/node_modules/jsdoc-plugins/plugins/defaultTag',
-                'node_modules/ember-cli-jsdoc/node_modules/jsdoc-plugins/plugins/emberListensTag',
-                'node_modules/ember-cli-jsdoc/node_modules/jsdoc-plugins/plugins/emberObservesTag'
+                'node_modules/jsdoc-plugins/plugins/defaultTag',
+                'node_modules/jsdoc-plugins/plugins/emberListensTag',
+                'node_modules/jsdoc-plugins/plugins/emberObservesTag'
             ],
             'templates': {
                 'cleverLinks': false,
