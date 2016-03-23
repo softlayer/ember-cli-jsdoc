@@ -4,11 +4,20 @@ tmp/
 dist/
 
 .bowerrc
+.gitattributes
 .editorconfig
 .ember-cli
 .travis.yml
 .npmignore
 **/.gitkeep
+ACCEPTED-CLAS.md
 bower.json
 Brocfile.js
+CHANGELOG.md
+CLA-CORPORATE.md
+CLA-INDIVIDUAL.md
+CONTRIBUTING.md
+LICENSE.md
+README.md
+RELEASE-INSTRUCTIONS.md
 testem.json
