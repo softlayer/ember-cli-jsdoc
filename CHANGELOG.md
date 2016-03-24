@@ -1,5 +1,17 @@
 # ember-cli-jsdoc Changelog
 
+### 1.4.0
+
+**BREAKING ENHANCEMENT**
+
+* [#1](https://github.com/softlayer/ember-cli-jsdoc/issues/1) Update JSDoc dependency to 3.4.0
+
+**BUG FIX**
+
+* [#9](https://github.com/softlayer/ember-cli-jsdoc/issues/9) Improve error, warning, and success messages
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.3.2...v1.4.0)
+
 ### 1.3.2
 
 **BUG FIX**
