@@ -1,5 +1,11 @@
 # ember-cli-jsdoc Changelog
 
+### 1.4.1
+
+**BUG FIX**
+
+* [#19](https://github.com/softlayer/ember-cli-jsdoc/issues/19) and [#29](https://github.com/softlayer/ember-cli-jsdoc/pull/29) Add missing dependencies
+
 ### 1.4.0
 
 **BREAKING ENHANCEMENT**
