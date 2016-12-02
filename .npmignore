@@ -12,11 +12,11 @@ dist/
 **/.gitkeep
 ACCEPTED-CLAS.md
 bower.json
-Brocfile.js
 CHANGELOG.md
 CLA-CORPORATE.md
 CLA-INDIVIDUAL.md
 CONTRIBUTING.md
+ember-cli-build.js
 LICENSE.md
 README.md
 RELEASE-INSTRUCTIONS.md
