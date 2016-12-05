@@ -1,5 +1,11 @@
 # ember-cli-jsdoc Changelog
 
+### 1.5.2
+
+**BUGFIX**
+
+* Update addon package dependency version missed in upgrade to chalk 1.1.3 support
+
 ### 1.5.1
 
 **BUGFIX**
