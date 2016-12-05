@@ -190,7 +190,7 @@ module.exports = {
         return this.addPackagesToProject([
             { name: 'chalk', target: '1.0.0' },
             { name: 'ember-cli-doc-server', target: '1.1.0' },
-            { name: 'jsdoc', target: '3.4.0' },
+            { name: 'jsdoc', target: '3.4.3' },
             { name: 'jsdoc-plugins', target: '1.2.2' },
             { name: 'rsvp', target: '3.0.18' }
         ]);
