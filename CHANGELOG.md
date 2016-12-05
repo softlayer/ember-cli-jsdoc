@@ -1,5 +1,13 @@
 # ember-cli-jsdoc Changelog
 
+### 1.5.1
+
+**BUGFIX**
+
+* Update addon package dependency version missed in upgrade to JSDoc 3.4.3 support
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.5.0...v1.5.1)
+
 ### 1.5.0
 
 **BREAKING ENHANCEMENT**
