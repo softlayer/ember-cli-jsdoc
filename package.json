@@ -26,7 +26,7 @@
   "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com/)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "1.0.0",
+    "chalk": "1.1.3",
     "ember-cli-babel": "5.1.7",
     "jsdoc": "3.4.0",
     "jsdoc-plugins": "1.2.2",
