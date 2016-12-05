@@ -4,7 +4,7 @@
 
 **BREAKING ENHANCEMENT**
 
-* [#33](https://github.com/softlayer/ember-cli-jsdoc/issues/33) Upgrade JSDoc dependency
+* [#33](https://github.com/softlayer/ember-cli-jsdoc/issues/33) Upgrade JSDoc dependency to v3.4.3
 * [#30](https://github.com/softlayer/ember-cli-jsdoc/issues/30) Upgrade Ember CLI to v2.10.0
 
 [View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.4.1...v1.5.0)
