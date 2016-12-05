@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-jsdoc",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Generate documentation of your app/addon from your JSDoc comments",
   "scripts": {
     "build": "ember build",
