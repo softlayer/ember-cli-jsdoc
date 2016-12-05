@@ -6,6 +6,8 @@
 
 * Update addon package dependency version missed in upgrade to chalk 1.1.3 support
 
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.5.1...v1.5.2)
+
 ### 1.5.1
 
 **BUGFIX**
