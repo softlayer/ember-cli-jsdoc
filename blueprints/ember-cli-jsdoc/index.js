@@ -1,3 +1,6 @@
+var chalk = require( 'chalk' );
+var fs = require( 'fs' );
+
 module.exports = {
     normalizeEntityName: function() {},
 
@@ -37,19 +40,6 @@ module.exports = {
             }
         }
 
-        /**
-         * Chalk library
-         *
-         * @type {Object}
-         */
-        var chalk = require( 'chalk' );
-
-        /**
-         * fs library
-         *
-         * @type {Object}
-         */
-        var fs = require( 'fs' );
 
         /**
          * Package info
@@ -188,11 +178,9 @@ module.exports = {
 
         // NPM dependency
         return this.addPackagesToProject([
-            { name: 'chalk', target: '1.1.3' },
             { name: 'ember-cli-doc-server', target: '1.1.0' },
             { name: 'jsdoc', target: '3.4.3' },
-            { name: 'jsdoc-plugins', target: '1.2.2' },
-            { name: 'rsvp', target: '3.0.18' }
+            { name: 'jsdoc-plugins', target: '1.2.2' }
         ]);
 
     }
