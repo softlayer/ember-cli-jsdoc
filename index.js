@@ -8,5 +8,8 @@ module.exports = {
         return {
             'ember-cli-jsdoc': require( './lib/commands/ember-cli-jsdoc' )
         }
+    },
+    postBuild: function(){
+      return require('./lib/generate-docs')()
     }
 };
