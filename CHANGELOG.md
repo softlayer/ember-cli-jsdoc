@@ -1,5 +1,19 @@
 # ember-cli-jsdoc Changelog
 
+### 1.6.0
+
+**BUGFIX**
+
+* [#36](https://github.com/softlayer/ember-cli-jsdoc/issues/36) Path to jsdoc binary is incorrect for node 4.x and npm 2.x
+* [Interrogate system for node .bin location](https://github.com/softlayer/ember-cli-jsdoc/commit/86f45ebeec6c9e1ea66b5998a76680322184fc38)
+
+**INTERNAL**
+
+* [#37](https://github.com/softlayer/ember-cli-jsdoc/pull/37) Don't add RSVP and Chalk to project devDependencies
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.5.2...v1.6.0)
+
+
 ### 1.5.2
 
 **BUGFIX**
