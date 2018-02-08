@@ -1,5 +1,12 @@
 # ember-cli-jsdoc Changelog
 
+### 1.6.1
+
+**BUGFIX**
+
+* [#40](https://github.com/softlayer/ember-cli-jsdoc/issues/40) Unable to parse async functions
+* [Update jsdoc version](<!-- https://github.com/softlayer/ember-cli-jsdoc/commit/86f45ebeec6c9e1ea66b5998a76680322184fc38 -->)
+
 ### 1.6.0
 
 **BUGFIX**
