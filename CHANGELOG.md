@@ -1,5 +1,14 @@
 # ember-cli-jsdoc Changelog
 
+### 2.0.0
+
+**BREAKING ENHANCEMENT**
+
+* Upgraded `jsdoc` dependency to `3.5.5` to address [#40 - Unable to parse async functions](https://github.com/softlayer/ember-cli-jsdoc/issues/40)
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v1.6.0...v2.0.0)
+
+
 ### 1.6.0
 
 **BUGFIX**
