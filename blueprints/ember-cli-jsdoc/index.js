@@ -179,7 +179,7 @@ module.exports = {
         // NPM dependency
         return this.addPackagesToProject([
             { name: 'ember-cli-doc-server', target: '1.1.0' },
-            { name: 'jsdoc', target: '3.4.3' },
+            { name: 'jsdoc', target: '3.5.5' },
             { name: 'jsdoc-plugins', target: '1.2.2' }
         ]);
 
