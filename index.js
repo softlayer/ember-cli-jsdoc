@@ -1,8 +1,7 @@
-/* jshint node: true */
 'use strict';
 
 module.exports = {
-    name: 'ember-cli-jsdoc',
+    name: require('./package').name,
 
     includedCommands: function() {
         return {

@@ -12,7 +12,7 @@ An Ember CLI addon to generate HTML documentation from [JSDoc](http://usejsdoc.o
 
 # Install
 
-```
+```sh
 ember install ember-cli-jsdoc
 ```
 
@@ -66,7 +66,7 @@ Employs [Semantic Versioning 2.0.0](http://semver.org/)
 
 
 # Copyright and License
-ember-cli-jsdoc and its source files are Copyright © 2015 [SoftLayer Technologies, Inc.](http://www.softlayer.com/)
+ember-cli-jsdoc and its source files are Copyright © 2015-2018 [SoftLayer Technologies, Inc.](http://www.softlayer.com/)
 The software is [MIT Licensed](LICENSE.md)
 
 
