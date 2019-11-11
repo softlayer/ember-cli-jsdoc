@@ -1,5 +1,14 @@
 # ember-cli-jsdoc Changelog
 
+### 3.0.0
+
+**BREAKING ENHANCEMENT**
+
+* [PR #43](https://github.com/softlayer/ember-cli-jsdoc/pull/43) Upgrade Ember CLI to v3.5
+
+[View complete changeset](https://github.com/softlayer/ember-cli-jsdoc/compare/v2.0.0...v3.0.0)
+
+
 ### 2.0.0
 
 **BREAKING ENHANCEMENT**
